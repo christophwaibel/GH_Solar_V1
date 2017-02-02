@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GrasshopperEnergyTools
+</name>
+</assembly>
+<members>
+<member name="M:GrasshopperEnergyTools.GHShadowFactors.#ctor">
+	<summary>
+ Initializes a new instance of the GHRadiation class.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHShadowFactors.RegisterInputParams(Grasshopper.Kernel.GH_Component.GH_InputParamManager)">
+	<summary>
+ Registers all the input parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHShadowFactors.RegisterOutputParams(Grasshopper.Kernel.GH_Component.GH_OutputParamManager)">
+	<summary>
+ Registers all the output parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHShadowFactors.SolveInstance(Grasshopper.Kernel.IGH_DataAccess)">
+	<summary>
+ This is the method that actually does the work.
+ </summary>
+	<param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
+</member><member name="P:GrasshopperEnergyTools.GHShadowFactors.Icon">
+	<summary>
+ Provides an Icon for every component that will be visible in the User Interface.
+ Icons need to be 24x24 pixels.
+ </summary>
+</member><member name="P:GrasshopperEnergyTools.GHShadowFactors.ComponentGuid">
+	<summary>
+ Gets the unique ID for this component. Do not change this ID after release.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation2.#ctor">
+	<summary>
+ Initializes a new instance of the GHpvmodule class.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation2.RegisterInputParams(Grasshopper.Kernel.GH_Component.GH_InputParamManager)">
+	<summary>
+ Registers all the input parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation2.RegisterOutputParams(Grasshopper.Kernel.GH_Component.GH_OutputParamManager)">
+	<summary>
+ Registers all the output parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation2.SolveInstance(Grasshopper.Kernel.IGH_DataAccess)">
+	<summary>
+ This is the method that actually does the work.
+ </summary>
+	<param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
+</member><member name="P:GrasshopperEnergyTools.GHirradiation2.Icon">
+	<summary>
+ Provides an Icon for every component that will be visible in the User Interface.
+ Icons need to be 24x24 pixels.
+ </summary>
+</member><member name="P:GrasshopperEnergyTools.GHirradiation2.ComponentGuid">
+	<summary>
+ Gets the unique ID for this component. Do not change this ID after release.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHShadingMask.#ctor">
+	<summary>
+ Initializes a new instance of the GHShadingMask class.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHShadingMask.RegisterInputParams(Grasshopper.Kernel.GH_Component.GH_InputParamManager)">
+	<summary>
+ Registers all the input parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHShadingMask.RegisterOutputParams(Grasshopper.Kernel.GH_Component.GH_OutputParamManager)">
+	<summary>
+ Registers all the output parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHShadingMask.SolveInstance(Grasshopper.Kernel.IGH_DataAccess)">
+	<summary>
+ This is the method that actually does the work.
+ </summary>
+	<param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
+</member><member name="P:GrasshopperEnergyTools.GHShadingMask.Icon">
+	<summary>
+ Provides an Icon for every component that will be visible in the User Interface.
+ Icons need to be 24x24 pixels.
+ </summary>
+</member><member name="P:GrasshopperEnergyTools.GHShadingMask.ComponentGuid">
+	<summary>
+ Gets the unique ID for this component. Do not change this ID after release.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHSunVector.#ctor">
+	<summary>
+ Initializes a new instance of the GHSunVector class.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHSunVector.RegisterInputParams(Grasshopper.Kernel.GH_Component.GH_InputParamManager)">
+	<summary>
+ weather file .epw -&gt; extract latitude and longitude from here
+ year
+ month
+ day
+ hour
+ if no weather file: latitude and longitude
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHSunVector.RegisterOutputParams(Grasshopper.Kernel.GH_Component.GH_OutputParamManager)">
+	<summary>
+ Registers all the output parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHSunVector.SolveInstance(Grasshopper.Kernel.IGH_DataAccess)">
+	<summary>
+ This is the method that actually does the work.
+ </summary>
+	<param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
+</member><member name="P:GrasshopperEnergyTools.GHSunVector.Icon">
+	<summary>
+ Provides an Icon for every component that will be visible in the User Interface.
+ Icons need to be 24x24 pixels.
+ </summary>
+</member><member name="P:GrasshopperEnergyTools.GHSunVector.ComponentGuid">
+	<summary>
+ Gets the unique ID for this component. Do not change this ID after release.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation.#ctor">
+	<summary>
+ Initializes a new instance of the GHpvmodule class.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation.RegisterInputParams(Grasshopper.Kernel.GH_Component.GH_InputParamManager)">
+	<summary>
+ Registers all the input parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation.RegisterOutputParams(Grasshopper.Kernel.GH_Component.GH_OutputParamManager)">
+	<summary>
+ Registers all the output parameters for this component.
+ </summary>
+</member><member name="M:GrasshopperEnergyTools.GHirradiation.SolveInstance(Grasshopper.Kernel.IGH_DataAccess)">
+	<summary>
+ This is the method that actually does the work.
+ </summary>
+	<param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
+</member><member name="P:GrasshopperEnergyTools.GHirradiation.Icon">
+	<summary>
+ Provides an Icon for every component that will be visible in the User Interface.
+ Icons need to be 24x24 pixels.
+ </summary>
+</member><member name="P:GrasshopperEnergyTools.GHirradiation.ComponentGuid">
+	<summary>
+ Gets the unique ID for this component. Do not change this ID after release.
+ </summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.meshnormals">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.PVmodule">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.PVmodule2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.shadingMask">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.shadow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.solar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GrasshopperEnergyTools.My.Resources.Resources.sunvec">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:GrasshopperEnergyTools.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
