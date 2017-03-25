@@ -9,3 +9,5 @@ Try out the *.gh file as example.
 ![alt text](https://github.com/christophwaibel/GH_Solar/blob/master/rhino.gif "Image from Rhino")
 
 ![alt text](https://github.com/christophwaibel/GH_Solar/blob/master/solar.gif "Image from Rhino")
+
+![alt text](https://github.com/christophwaibel/GH_Solar/blob/master/solaroptimization_04a.gif "Optimization example")
