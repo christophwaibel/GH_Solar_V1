@@ -24,4 +24,4 @@ Facade optimization example with Galapagos.
 <br><br>
 <br><br>
 ![alt text](https://github.com/christophwaibel/GH_Solar/blob/master/solaroptimization_04a.gif "Optimization example")
-*Facade optimization example. (Not real time; One evaluation was ~1 second.)*
+*Facade optimization example*
