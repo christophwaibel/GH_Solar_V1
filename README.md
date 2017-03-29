@@ -6,9 +6,9 @@ Copy the [.dll](https://github.com/christophwaibel/GH_Solar/blob/master/Grasshop
 
 Try out the *.gh file as examples:
 * [Annual hourly irradiation](https://github.com/christophwaibel/GH_Solar/blob/master/160908_Tutorial02_SolarTool.gh) <br>
-Simple example on how to perform annual solar irradiation calculation on surfaces. 
+Simple example on how to perform annual solar irradiation calculation on surfaces (roof and facade). 
 * [Facade optimization](https://github.com/christophwaibel/GH_Solar/blob/master/170324_solaroptimizationexample_04.gh) <br>
-Facade optimization example with Galapagos.
+Facade optimization example with Galapagos. Maximizing annual irradiation in kWh/a on the solar shading - e.g. for placing PV. 
 
 <br><br>
 <br><br>
