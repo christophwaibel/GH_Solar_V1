@@ -2,7 +2,7 @@
 Annual hourly solar irradiation on meshed surfaces.
 See this publication for more info: http://www.ibpsa.org/proceedings/BSO2016/p1059.pdf 
 
-Copy the [.dll](https://github.com/christophwaibel/GH_Solar/blob/master/GrasshopperEnergyTools.dll) and the [.gha](https://github.com/christophwaibel/GH_Solar/blob/master/GrasshopperEnergyTools.gha) files into your Rhino Grasshopper components folder. You can find the folder by typing _"GrasshopperFolders"_, _"Components"_ into your Rhino command line.
+Copy the [.gha](https://github.com/christophwaibel/GH_Solar/blob/master/GrasshopperEnergyTools.gha) file into your Rhino Grasshopper components folder. You can find the folder by typing _"GrasshopperFolders"_, _"Components"_ into your Rhino command line.
 
 Try out the *.gh file as examples:
 * [Annual hourly irradiation](https://github.com/christophwaibel/GH_Solar/blob/master/160908_Tutorial02_SolarTool.gh) <br>
