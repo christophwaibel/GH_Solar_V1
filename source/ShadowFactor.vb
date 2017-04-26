@@ -55,7 +55,7 @@ Public Class ShadowFactor
 
         Dim avgnormal As Vector3d = avgMeshNormal(MeshCheckSun)
         Dim betaangle As New Vector3d(0, 0, 1)
-        Dim psiangle As New Vector3d(0, -1, 0)
+        Dim psiangle As New Vector3d(0, 1, 0)
         Dim psiplane As New Plane(New Point3d(0, 0, 0), New Vector3d(0, 0, 1))
         beta = (Vector3d.VectorAngle(avgnormal, betaangle) / rad)
         psi = (Vector3d.VectorAngle(avgnormal, psiangle, psiplane) / rad)
